@@ -34,12 +34,12 @@ docker build -t uef-examples:0.1 .
 
 Then run your Docker image:
 ```
-docker run -p 5000:5000 --name uef-examples uef-examples:0.1
+docker run -p 4000:4000 --name uef-examples uef-examples:0.1
 ```
 
 Now using NGrok, expose your port to the world:
 ```
-ngrok http 5000 --hostname <unique-value>.ngrok.io
+ngrok http 4000 --hostname <unique-value>.ngrok.io
 ```
 
 Of course it is docker, so you can deploy this just about anywhere and provide any hostname you desire. 

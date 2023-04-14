@@ -504,7 +504,7 @@ const handleUEFEvents = async (messageData) => {
                             "portalId": messageData.portalId,
                             "contents": contentsToSend,
                         });
-                    }, 5000);
+                    }, 4000);
                     break;
                 }
                 case 'course.outline.details': {
